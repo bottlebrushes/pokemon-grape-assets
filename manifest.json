@@ -1,0 +1,4777 @@
+{
+ "source": "grape",
+ "rom": "Pokemon Grape (Final v1.6).gbc",
+ "platform": "gbc",
+ "method": "Grape Final v1.6 ROM; Gen I compressed 2bpp graphics decoded from ROM pointers.",
+ "credits": "80C-Games (boot/copyright screen)",
+ "assets": [
+  {
+   "type": "pokemon",
+   "slug": "bulbasaur",
+   "dex": 1,
+   "form": null,
+   "path": "pokemon/bulbasaur",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 4000; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "ivysaur",
+   "dex": 2,
+   "form": null,
+   "path": "pokemon/ivysaur",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 41cb; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "venusaur",
+   "dex": 3,
+   "form": null,
+   "path": "pokemon/venusaur",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 4461; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "charmander",
+   "dex": 4,
+   "form": null,
+   "path": "pokemon/charmander",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 47fb; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "charmeleon",
+   "dex": 5,
+   "form": null,
+   "path": "pokemon/charmeleon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 49d3; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "charizard",
+   "dex": 6,
+   "form": null,
+   "path": "pokemon/charizard",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 4c7d; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "squirtle",
+   "dex": 7,
+   "form": null,
+   "path": "pokemon/squirtle",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 4fa9; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "wartortle",
+   "dex": 8,
+   "form": null,
+   "path": "pokemon/wartortle",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 515f; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "blastoise",
+   "dex": 9,
+   "form": null,
+   "path": "pokemon/blastoise",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 53f5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "caterpie",
+   "dex": 10,
+   "form": null,
+   "path": "pokemon/caterpie",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 5768; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "metapod",
+   "dex": 11,
+   "form": null,
+   "path": "pokemon/metapod",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 590d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "butterfree",
+   "dex": 12,
+   "form": null,
+   "path": "pokemon/butterfree",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 5a81; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "weedle",
+   "dex": 13,
+   "form": null,
+   "path": "pokemon/weedle",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 5d88; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "kakuna",
+   "dex": 14,
+   "form": null,
+   "path": "pokemon/kakuna",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 5f17; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "beedrill",
+   "dex": 15,
+   "form": null,
+   "path": "pokemon/beedrill",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 6083; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pidgey",
+   "dex": 16,
+   "form": null,
+   "path": "pokemon/pidgey",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 633d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pidgeotto",
+   "dex": 17,
+   "form": null,
+   "path": "pokemon/pidgeotto",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 6561; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pidgeot",
+   "dex": 18,
+   "form": null,
+   "path": "pokemon/pidgeot",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 67a1; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "rattata",
+   "dex": 19,
+   "form": null,
+   "path": "pokemon/rattata",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 6a64; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "raticate",
+   "dex": 20,
+   "form": null,
+   "path": "pokemon/raticate",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 6c59; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "spearow",
+   "dex": 21,
+   "form": null,
+   "path": "pokemon/spearow",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 6f03; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "fearow",
+   "dex": 22,
+   "form": null,
+   "path": "pokemon/fearow",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 70f2; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "ekans",
+   "dex": 23,
+   "form": null,
+   "path": "pokemon/ekans",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 73b3; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "arbok",
+   "dex": 24,
+   "form": null,
+   "path": "pokemon/arbok",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 75b2; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pikachu",
+   "dex": 25,
+   "form": null,
+   "path": "pokemon/pikachu",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 785e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "raichu",
+   "dex": 26,
+   "form": null,
+   "path": "pokemon/raichu",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 7a62; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "sandshrew",
+   "dex": 27,
+   "form": null,
+   "path": "pokemon/sandshrew",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 44, pointer 7ce5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "sandslash",
+   "dex": 28,
+   "form": null,
+   "path": "pokemon/sandslash",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4000; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidoran_f",
+   "dex": 29,
+   "form": null,
+   "path": "pokemon/nidoran_f",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4300; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidorina",
+   "dex": 30,
+   "form": null,
+   "path": "pokemon/nidorina",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 44e6; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidoqueen",
+   "dex": 31,
+   "form": null,
+   "path": "pokemon/nidoqueen",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4776; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidoran_m",
+   "dex": 32,
+   "form": null,
+   "path": "pokemon/nidoran_m",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4a77; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidorino",
+   "dex": 33,
+   "form": null,
+   "path": "pokemon/nidorino",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4ca8; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nidoking",
+   "dex": 34,
+   "form": null,
+   "path": "pokemon/nidoking",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 4f70; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "clefairy",
+   "dex": 35,
+   "form": null,
+   "path": "pokemon/clefairy",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 5339; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "clefable",
+   "dex": 36,
+   "form": null,
+   "path": "pokemon/clefable",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 5538; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "vulpix",
+   "dex": 37,
+   "form": null,
+   "path": "pokemon/vulpix",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 57db; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "ninetales",
+   "dex": 38,
+   "form": null,
+   "path": "pokemon/ninetales",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 5a37; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "jigglypuff",
+   "dex": 39,
+   "form": null,
+   "path": "pokemon/jigglypuff",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 5d5f; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "wigglytuff",
+   "dex": 40,
+   "form": null,
+   "path": "pokemon/wigglytuff",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 5f1a; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "zubat",
+   "dex": 41,
+   "form": null,
+   "path": "pokemon/zubat",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 6146; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "golbat",
+   "dex": 42,
+   "form": null,
+   "path": "pokemon/golbat",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 632c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "oddish",
+   "dex": 43,
+   "form": null,
+   "path": "pokemon/oddish",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 656b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "gloom",
+   "dex": 44,
+   "form": null,
+   "path": "pokemon/gloom",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 66f3; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "vileplume",
+   "dex": 45,
+   "form": null,
+   "path": "pokemon/vileplume",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 6975; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "paras",
+   "dex": 46,
+   "form": null,
+   "path": "pokemon/paras",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 6bf5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "parasect",
+   "dex": 47,
+   "form": null,
+   "path": "pokemon/parasect",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 6dc6; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "venonat",
+   "dex": 48,
+   "form": null,
+   "path": "pokemon/venonat",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 7006; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "venomoth",
+   "dex": 49,
+   "form": null,
+   "path": "pokemon/venomoth",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 729c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "diglett",
+   "dex": 50,
+   "form": null,
+   "path": "pokemon/diglett",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 75be; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "dugtrio",
+   "dex": 51,
+   "form": null,
+   "path": "pokemon/dugtrio",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 7710; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "meowth",
+   "dex": 52,
+   "form": null,
+   "path": "pokemon/meowth",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 7969; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "persian",
+   "dex": 53,
+   "form": null,
+   "path": "pokemon/persian",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 45, pointer 7b9a; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "psyduck",
+   "dex": 54,
+   "form": null,
+   "path": "pokemon/psyduck",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 4000; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "golduck",
+   "dex": 55,
+   "form": null,
+   "path": "pokemon/golduck",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 421c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "mankey",
+   "dex": 56,
+   "form": null,
+   "path": "pokemon/mankey",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 44c7; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "primeape",
+   "dex": 57,
+   "form": null,
+   "path": "pokemon/primeape",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 4734; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "growlithe",
+   "dex": 58,
+   "form": null,
+   "path": "pokemon/growlithe",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 49d3; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "arcanine",
+   "dex": 59,
+   "form": null,
+   "path": "pokemon/arcanine",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 4c09; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "poliwag",
+   "dex": 60,
+   "form": null,
+   "path": "pokemon/poliwag",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 4f7c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "poliwhirl",
+   "dex": 61,
+   "form": null,
+   "path": "pokemon/poliwhirl",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 5118; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "poliwrath",
+   "dex": 62,
+   "form": null,
+   "path": "pokemon/poliwrath",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 5373; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "abra",
+   "dex": 63,
+   "form": null,
+   "path": "pokemon/abra",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 5606; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "kadabra",
+   "dex": 64,
+   "form": null,
+   "path": "pokemon/kadabra",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 584b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "alakazam",
+   "dex": 65,
+   "form": null,
+   "path": "pokemon/alakazam",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 5b37; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "machop",
+   "dex": 66,
+   "form": null,
+   "path": "pokemon/machop",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 5e65; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "machoke",
+   "dex": 67,
+   "form": null,
+   "path": "pokemon/machoke",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 6064; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "machamp",
+   "dex": 68,
+   "form": null,
+   "path": "pokemon/machamp",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 6347; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "bellsprout",
+   "dex": 69,
+   "form": null,
+   "path": "pokemon/bellsprout",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 66ed; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "weepinbell",
+   "dex": 70,
+   "form": null,
+   "path": "pokemon/weepinbell",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 68d1; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "victreebel",
+   "dex": 71,
+   "form": null,
+   "path": "pokemon/victreebel",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 6b02; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "tentacool",
+   "dex": 72,
+   "form": null,
+   "path": "pokemon/tentacool",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 6dd1; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "tentacruel",
+   "dex": 73,
+   "form": null,
+   "path": "pokemon/tentacruel",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 6fab; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "geodude",
+   "dex": 74,
+   "form": null,
+   "path": "pokemon/geodude",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 72e6; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "graveler",
+   "dex": 75,
+   "form": null,
+   "path": "pokemon/graveler",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 74ec; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "golem",
+   "dex": 76,
+   "form": null,
+   "path": "pokemon/golem",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 77da; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "ponyta",
+   "dex": 77,
+   "form": null,
+   "path": "pokemon/ponyta",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 7a4d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "rapidash",
+   "dex": 78,
+   "form": null,
+   "path": "pokemon/rapidash",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 46, pointer 7cc5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "slowpoke",
+   "dex": 79,
+   "form": null,
+   "path": "pokemon/slowpoke",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 4000; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "slowbro",
+   "dex": 80,
+   "form": null,
+   "path": "pokemon/slowbro",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 41bb; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "magnemite",
+   "dex": 81,
+   "form": null,
+   "path": "pokemon/magnemite",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 44b3; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "magneton",
+   "dex": 82,
+   "form": null,
+   "path": "pokemon/magneton",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 45ab; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "farfetchd",
+   "dex": 83,
+   "form": null,
+   "path": "pokemon/farfetchd",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 4853; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "doduo",
+   "dex": 84,
+   "form": null,
+   "path": "pokemon/doduo",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 4ae6; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "dodrio",
+   "dex": 85,
+   "form": null,
+   "path": "pokemon/dodrio",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 4d2f; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "seel",
+   "dex": 86,
+   "form": null,
+   "path": "pokemon/seel",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 504e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "dewgong",
+   "dex": 87,
+   "form": null,
+   "path": "pokemon/dewgong",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 5288; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "grimer",
+   "dex": 88,
+   "form": null,
+   "path": "pokemon/grimer",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 54e8; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "muk",
+   "dex": 89,
+   "form": null,
+   "path": "pokemon/muk",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 570c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "shellder",
+   "dex": 90,
+   "form": null,
+   "path": "pokemon/shellder",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 59ad; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "cloyster",
+   "dex": 91,
+   "form": null,
+   "path": "pokemon/cloyster",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 5bc6; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "gastly",
+   "dex": 92,
+   "form": null,
+   "path": "pokemon/gastly",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 5f45; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "haunter",
+   "dex": 93,
+   "form": null,
+   "path": "pokemon/haunter",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 6174; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "gengar",
+   "dex": 94,
+   "form": null,
+   "path": "pokemon/gengar",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 6460; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "onix",
+   "dex": 95,
+   "form": null,
+   "path": "pokemon/onix",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 671c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "drowzee",
+   "dex": 96,
+   "form": null,
+   "path": "pokemon/drowzee",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 6a75; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "hypno",
+   "dex": 97,
+   "form": null,
+   "path": "pokemon/hypno",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 6c9b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "krabby",
+   "dex": 98,
+   "form": null,
+   "path": "pokemon/krabby",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 6fba; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "kingler",
+   "dex": 99,
+   "form": null,
+   "path": "pokemon/kingler",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 724f; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "voltorb",
+   "dex": 100,
+   "form": null,
+   "path": "pokemon/voltorb",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 7538; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "electrode",
+   "dex": 101,
+   "form": null,
+   "path": "pokemon/electrode",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 7677; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "exeggcute",
+   "dex": 102,
+   "form": null,
+   "path": "pokemon/exeggcute",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 77e9; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "exeggutor",
+   "dex": 103,
+   "form": null,
+   "path": "pokemon/exeggutor",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 47, pointer 7aa3; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "cubone",
+   "dex": 104,
+   "form": null,
+   "path": "pokemon/cubone",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4000; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "marowak",
+   "dex": 105,
+   "form": null,
+   "path": "pokemon/marowak",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4232; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "hitmonlee",
+   "dex": 106,
+   "form": null,
+   "path": "pokemon/hitmonlee",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 44c9; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "hitmonchan",
+   "dex": 107,
+   "form": null,
+   "path": "pokemon/hitmonchan",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4722; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "lickitung",
+   "dex": 108,
+   "form": null,
+   "path": "pokemon/lickitung",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4989; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "koffing",
+   "dex": 109,
+   "form": null,
+   "path": "pokemon/koffing",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4c3c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "weezing",
+   "dex": 110,
+   "form": null,
+   "path": "pokemon/weezing",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 4ea1; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "rhyhorn",
+   "dex": 111,
+   "form": null,
+   "path": "pokemon/rhyhorn",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 51bf; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "rhydon",
+   "dex": 112,
+   "form": null,
+   "path": "pokemon/rhydon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 54ae; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "chansey",
+   "dex": 113,
+   "form": null,
+   "path": "pokemon/chansey",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 584a; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "tangela",
+   "dex": 114,
+   "form": null,
+   "path": "pokemon/tangela",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 5a92; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "kangaskhan",
+   "dex": 115,
+   "form": null,
+   "path": "pokemon/kangaskhan",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 5cbe; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "horsea",
+   "dex": 116,
+   "form": null,
+   "path": "pokemon/horsea",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 6007; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "seadra",
+   "dex": 117,
+   "form": null,
+   "path": "pokemon/seadra",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 619d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "goldeen",
+   "dex": 118,
+   "form": null,
+   "path": "pokemon/goldeen",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 6431; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "seaking",
+   "dex": 119,
+   "form": null,
+   "path": "pokemon/seaking",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 66c1; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "staryu",
+   "dex": 120,
+   "form": null,
+   "path": "pokemon/staryu",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 69d7; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "starmie",
+   "dex": 121,
+   "form": null,
+   "path": "pokemon/starmie",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 6bce; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "mr_mime",
+   "dex": 122,
+   "form": null,
+   "path": "pokemon/mr_mime",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 6e23; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "scyther",
+   "dex": 123,
+   "form": null,
+   "path": "pokemon/scyther",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 7083; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "jynx",
+   "dex": 124,
+   "form": null,
+   "path": "pokemon/jynx",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 736d; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "electabuzz",
+   "dex": 125,
+   "form": null,
+   "path": "pokemon/electabuzz",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 75af; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "magmar",
+   "dex": 126,
+   "form": null,
+   "path": "pokemon/magmar",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 78c0; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pinsir",
+   "dex": 127,
+   "form": null,
+   "path": "pokemon/pinsir",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 48, pointer 7bd0; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "tauros",
+   "dex": 128,
+   "form": null,
+   "path": "pokemon/tauros",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 4000; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "magikarp",
+   "dex": 129,
+   "form": null,
+   "path": "pokemon/magikarp",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 42bb; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "gyarados",
+   "dex": 130,
+   "form": null,
+   "path": "pokemon/gyarados",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 4524; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "lapras",
+   "dex": 131,
+   "form": null,
+   "path": "pokemon/lapras",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 48c7; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "ditto",
+   "dex": 132,
+   "form": null,
+   "path": "pokemon/ditto",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 4b5c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "eevee",
+   "dex": 133,
+   "form": null,
+   "path": "pokemon/eevee",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 4cb9; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "vaporeon",
+   "dex": 134,
+   "form": null,
+   "path": "pokemon/vaporeon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 4efa; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "jolteon",
+   "dex": 135,
+   "form": null,
+   "path": "pokemon/jolteon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 514d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "flareon",
+   "dex": 136,
+   "form": null,
+   "path": "pokemon/flareon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 539a; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "porygon",
+   "dex": 137,
+   "form": null,
+   "path": "pokemon/porygon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 5656; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "omanyte",
+   "dex": 138,
+   "form": null,
+   "path": "pokemon/omanyte",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 583c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "omastar",
+   "dex": 139,
+   "form": null,
+   "path": "pokemon/omastar",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 5a47; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "kabuto",
+   "dex": 140,
+   "form": null,
+   "path": "pokemon/kabuto",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 5d32; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "kabutops",
+   "dex": 141,
+   "form": null,
+   "path": "pokemon/kabutops",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 5ecd; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "aerodactyl",
+   "dex": 142,
+   "form": null,
+   "path": "pokemon/aerodactyl",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 61e0; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "snorlax",
+   "dex": 143,
+   "form": null,
+   "path": "pokemon/snorlax",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 64da; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "articuno",
+   "dex": 144,
+   "form": null,
+   "path": "pokemon/articuno",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 6716; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "zapdos",
+   "dex": 145,
+   "form": null,
+   "path": "pokemon/zapdos",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 6a20; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "moltres",
+   "dex": 146,
+   "form": null,
+   "path": "pokemon/moltres",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 6ce5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "dratini",
+   "dex": 147,
+   "form": null,
+   "path": "pokemon/dratini",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 7024; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "dragonair",
+   "dex": 148,
+   "form": null,
+   "path": "pokemon/dragonair",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 7207; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "dragonite",
+   "dex": 149,
+   "form": null,
+   "path": "pokemon/dragonite",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 7465; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "mewtwo",
+   "dex": 150,
+   "form": null,
+   "path": "pokemon/mewtwo",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 7771; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "mew",
+   "dex": 151,
+   "form": null,
+   "path": "pokemon/mew",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": false,
+   "notes": "front bank 49, pointer 7a5b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "chikorita",
+   "dex": 152,
+   "form": null,
+   "path": "pokemon/chikorita",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 49, pointer 7c8e; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "bayleef",
+   "dex": 153,
+   "form": null,
+   "path": "pokemon/bayleef",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 4000; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "raikou",
+   "dex": 154,
+   "form": null,
+   "path": "pokemon/raikou",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 42b5; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "cyndaquil",
+   "dex": 155,
+   "form": null,
+   "path": "pokemon/cyndaquil",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 45bf; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "quilava",
+   "dex": 156,
+   "form": null,
+   "path": "pokemon/quilava",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 47c8; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "entei",
+   "dex": 157,
+   "form": null,
+   "path": "pokemon/entei",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 4a1e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "totodile",
+   "dex": 158,
+   "form": null,
+   "path": "pokemon/totodile",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 4d22; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "croconaw",
+   "dex": 159,
+   "form": null,
+   "path": "pokemon/croconaw",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 4f1c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "suicune",
+   "dex": 160,
+   "form": null,
+   "path": "pokemon/suicune",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 519f; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "houndour",
+   "dex": 161,
+   "form": null,
+   "path": "pokemon/houndour",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 551a; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "houndoom",
+   "dex": 162,
+   "form": null,
+   "path": "pokemon/houndoom",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 56b8; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "heracross",
+   "dex": 163,
+   "form": null,
+   "path": "pokemon/heracross",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 58ed; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "yanma",
+   "dex": 164,
+   "form": null,
+   "path": "pokemon/yanma",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 5bad; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "skarmory",
+   "dex": 165,
+   "form": null,
+   "path": "pokemon/skarmory",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 5e38; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "spinarak",
+   "dex": 166,
+   "form": null,
+   "path": "pokemon/spinarak",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 60aa; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "ariados",
+   "dex": 167,
+   "form": null,
+   "path": "pokemon/ariados",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 6243; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "chinchou",
+   "dex": 168,
+   "form": null,
+   "path": "pokemon/chinchou",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 64cd; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "lanturn",
+   "dex": 169,
+   "form": null,
+   "path": "pokemon/lanturn",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 66f1; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "swinub",
+   "dex": 170,
+   "form": null,
+   "path": "pokemon/swinub",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 6940; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "piloswine",
+   "dex": 171,
+   "form": null,
+   "path": "pokemon/piloswine",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 6aac; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "lugia",
+   "dex": 172,
+   "form": null,
+   "path": "pokemon/lugia",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 6c7f; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "ho_oh",
+   "dex": 173,
+   "form": null,
+   "path": "pokemon/ho_oh",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 6f0b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "mareep",
+   "dex": 174,
+   "form": null,
+   "path": "pokemon/mareep",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7031; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "flaaffy",
+   "dex": 175,
+   "form": null,
+   "path": "pokemon/flaaffy",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7222; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "marill",
+   "dex": 176,
+   "form": null,
+   "path": "pokemon/marill",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7457; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "murkrow",
+   "dex": 177,
+   "form": null,
+   "path": "pokemon/murkrow",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7687; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "honchkrow",
+   "dex": 178,
+   "form": null,
+   "path": "pokemon/honchkrow",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 78bf; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "larvitar",
+   "dex": 179,
+   "form": null,
+   "path": "pokemon/larvitar",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7a75; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "pupitar",
+   "dex": 180,
+   "form": null,
+   "path": "pokemon/pupitar",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4a, pointer 7cad; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "uranytar",
+   "dex": 181,
+   "form": null,
+   "path": "pokemon/uranytar",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 4000; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "phanpy",
+   "dex": 182,
+   "form": null,
+   "path": "pokemon/phanpy",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 4264; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "donphan",
+   "dex": 183,
+   "form": null,
+   "path": "pokemon/donphan",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 441e; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "skebutops",
+   "dex": 184,
+   "form": null,
+   "path": "pokemon/skebutops",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 4674; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "aerofossil",
+   "dex": 185,
+   "form": null,
+   "path": "pokemon/aerofossil",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 49cd; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "ghost",
+   "dex": 186,
+   "form": null,
+   "path": "pokemon/ghost",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 4cfc; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "wooper",
+   "dex": 187,
+   "form": null,
+   "path": "pokemon/wooper",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 4ead; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "quagsire",
+   "dex": 188,
+   "form": null,
+   "path": "pokemon/quagsire",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 515d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "togepi",
+   "dex": 189,
+   "form": null,
+   "path": "pokemon/togepi",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 52f7; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "togetic",
+   "dex": 190,
+   "form": null,
+   "path": "pokemon/togetic",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 5533; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "togekiss",
+   "dex": 191,
+   "form": null,
+   "path": "pokemon/togekiss",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 56a5; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "gligar",
+   "dex": 192,
+   "form": null,
+   "path": "pokemon/gligar",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 58b3; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "misdreavus",
+   "dex": 193,
+   "form": null,
+   "path": "pokemon/misdreavus",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 5a82; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "sneasel",
+   "dex": 194,
+   "form": null,
+   "path": "pokemon/sneasel",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 5d3c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "weavile",
+   "dex": 195,
+   "form": null,
+   "path": "pokemon/weavile",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 606e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "tyrogue",
+   "dex": 196,
+   "form": null,
+   "path": "pokemon/tyrogue",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 62bf; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "hitmontop",
+   "dex": 197,
+   "form": null,
+   "path": "pokemon/hitmontop",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 6582; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "gliscor",
+   "dex": 198,
+   "form": null,
+   "path": "pokemon/gliscor",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 67bc; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "mismagius",
+   "dex": 199,
+   "form": null,
+   "path": "pokemon/mismagius",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 6a9d; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "yanmega",
+   "dex": 200,
+   "form": null,
+   "path": "pokemon/yanmega",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 6ca9; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "espeon",
+   "dex": 201,
+   "form": null,
+   "path": "pokemon/espeon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 6f5b; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "umbreon",
+   "dex": 202,
+   "form": null,
+   "path": "pokemon/umbreon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 720c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "leafeon",
+   "dex": 203,
+   "form": null,
+   "path": "pokemon/leafeon",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 7470; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "glaceon",
+   "dex": 204,
+   "form": null,
+   "path": "pokemon/glaceon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 7680; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "sylveon",
+   "dex": 205,
+   "form": null,
+   "path": "pokemon/sylveon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 790c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "magnezone",
+   "dex": 206,
+   "form": null,
+   "path": "pokemon/magnezone",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4b, pointer 7b74; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "electivire",
+   "dex": 207,
+   "form": null,
+   "path": "pokemon/electivire",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 4000; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "magmortar",
+   "dex": 208,
+   "form": null,
+   "path": "pokemon/magmortar",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 4275; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "tangrowth",
+   "dex": 209,
+   "form": null,
+   "path": "pokemon/tangrowth",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 456d; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "scizor",
+   "dex": 210,
+   "form": null,
+   "path": "pokemon/scizor",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 4942; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "steelix",
+   "dex": 211,
+   "form": null,
+   "path": "pokemon/steelix",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 4b2e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "slowking",
+   "dex": 212,
+   "form": null,
+   "path": "pokemon/slowking",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 4d1b; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "kingdra",
+   "dex": 213,
+   "form": null,
+   "path": "pokemon/kingdra",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 5018; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "rhyperior",
+   "dex": 214,
+   "form": null,
+   "path": "pokemon/rhyperior",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 5336; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "blissey",
+   "dex": 215,
+   "form": null,
+   "path": "pokemon/blissey",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 5688; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "crobat",
+   "dex": 216,
+   "form": null,
+   "path": "pokemon/crobat",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 593e; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "politoed",
+   "dex": 217,
+   "form": null,
+   "path": "pokemon/politoed",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 5c33; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "lickilicky",
+   "dex": 218,
+   "form": null,
+   "path": "pokemon/lickilicky",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 5f98; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "meganium",
+   "dex": 219,
+   "form": null,
+   "path": "pokemon/meganium",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 6216; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "typhlosion",
+   "dex": 220,
+   "form": null,
+   "path": "pokemon/typhlosion",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 647e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "feraligatr",
+   "dex": 221,
+   "form": null,
+   "path": "pokemon/feraligatr",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 66ba; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "mamoswine",
+   "dex": 222,
+   "form": null,
+   "path": "pokemon/mamoswine",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 693a; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "xatu",
+   "dex": 223,
+   "form": null,
+   "path": "pokemon/xatu",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 6bff; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "seedot",
+   "dex": 224,
+   "form": null,
+   "path": "pokemon/seedot",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 6f36; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "nuzleaf",
+   "dex": 225,
+   "form": null,
+   "path": "pokemon/nuzleaf",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 7292; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "shiftry",
+   "dex": 226,
+   "form": null,
+   "path": "pokemon/shiftry",
+   "frames": 1,
+   "animated": false,
+   "has_back": false,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 755c; Gen I compressed 2bpp Back sprite omitted: identical to Pokémon Crystal."
+  },
+  {
+   "type": "pokemon",
+   "slug": "whismur",
+   "dex": 227,
+   "form": null,
+   "path": "pokemon/whismur",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 79a6; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "loudred",
+   "dex": 228,
+   "form": null,
+   "path": "pokemon/loudred",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4c, pointer 7bae; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "exploud",
+   "dex": 229,
+   "form": null,
+   "path": "pokemon/exploud",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 4000; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "aron",
+   "dex": 230,
+   "form": null,
+   "path": "pokemon/aron",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 42d7; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "lairon",
+   "dex": 231,
+   "form": null,
+   "path": "pokemon/lairon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 449c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "aggron",
+   "dex": 232,
+   "form": null,
+   "path": "pokemon/aggron",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 4789; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "torkoal",
+   "dex": 233,
+   "form": null,
+   "path": "pokemon/torkoal",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 4aa5; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "tropius",
+   "dex": 234,
+   "form": null,
+   "path": "pokemon/tropius",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 4bc8; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "chimecho",
+   "dex": 235,
+   "form": null,
+   "path": "pokemon/chimecho",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 4e60; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "anorith",
+   "dex": 236,
+   "form": null,
+   "path": "pokemon/anorith",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 51f7; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "armaldo",
+   "dex": 237,
+   "form": null,
+   "path": "pokemon/armaldo",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 541e; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "bagon",
+   "dex": 238,
+   "form": null,
+   "path": "pokemon/bagon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 574d; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "shelgon",
+   "dex": 239,
+   "form": null,
+   "path": "pokemon/shelgon",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 588f; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "salamence",
+   "dex": 240,
+   "form": null,
+   "path": "pokemon/salamence",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 5a1c; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "drilbur",
+   "dex": 241,
+   "form": null,
+   "path": "pokemon/drilbur",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 5cec; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "excadrill",
+   "dex": 242,
+   "form": null,
+   "path": "pokemon/excadrill",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 5ed6; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_243",
+   "dex": 243,
+   "form": null,
+   "path": "pokemon/species_243",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 60ea; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_244",
+   "dex": 244,
+   "form": null,
+   "path": "pokemon/species_244",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    48,
+    48
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 63f2; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_245",
+   "dex": 245,
+   "form": null,
+   "path": "pokemon/species_245",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 65c8; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_246",
+   "dex": 246,
+   "form": null,
+   "path": "pokemon/species_246",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    40,
+    40
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 678f; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_247",
+   "dex": 247,
+   "form": null,
+   "path": "pokemon/species_247",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 6988; Gen I compressed 2bpp"
+  },
+  {
+   "type": "pokemon",
+   "slug": "species_248",
+   "dex": 248,
+   "form": null,
+   "path": "pokemon/species_248",
+   "frames": 1,
+   "animated": false,
+   "has_back": true,
+   "has_shiny": false,
+   "native_size": [
+    56,
+    56
+   ],
+   "original_species": true,
+   "notes": "front bank 4d, pointer 6ccc; Gen I compressed 2bpp"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_01",
+   "path": "trainers/class_01",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_02",
+   "path": "trainers/class_02",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_03",
+   "path": "trainers/class_03",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_04",
+   "path": "trainers/class_04",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_05",
+   "path": "trainers/class_05",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_06",
+   "path": "trainers/class_06",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_07",
+   "path": "trainers/class_07",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_08",
+   "path": "trainers/class_08",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_09",
+   "path": "trainers/class_09",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_10",
+   "path": "trainers/class_10",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_11",
+   "path": "trainers/class_11",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_12",
+   "path": "trainers/class_12",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_13",
+   "path": "trainers/class_13",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_14",
+   "path": "trainers/class_14",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_15",
+   "path": "trainers/class_15",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_16",
+   "path": "trainers/class_16",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_17",
+   "path": "trainers/class_17",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_18",
+   "path": "trainers/class_18",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_19",
+   "path": "trainers/class_19",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_20",
+   "path": "trainers/class_20",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_21",
+   "path": "trainers/class_21",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_22",
+   "path": "trainers/class_22",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_23",
+   "path": "trainers/class_23",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_24",
+   "path": "trainers/class_24",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_25",
+   "path": "trainers/class_25",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_26",
+   "path": "trainers/class_26",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_27",
+   "path": "trainers/class_27",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_28",
+   "path": "trainers/class_28",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_29",
+   "path": "trainers/class_29",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_30",
+   "path": "trainers/class_30",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_31",
+   "path": "trainers/class_31",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_32",
+   "path": "trainers/class_32",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_33",
+   "path": "trainers/class_33",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_34",
+   "path": "trainers/class_34",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_35",
+   "path": "trainers/class_35",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_36",
+   "path": "trainers/class_36",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_37",
+   "path": "trainers/class_37",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_38",
+   "path": "trainers/class_38",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_39",
+   "path": "trainers/class_39",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_40",
+   "path": "trainers/class_40",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_41",
+   "path": "trainers/class_41",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_42",
+   "path": "trainers/class_42",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_43",
+   "path": "trainers/class_43",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_44",
+   "path": "trainers/class_44",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_45",
+   "path": "trainers/class_45",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_46",
+   "path": "trainers/class_46",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_47",
+   "path": "trainers/class_47",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_48",
+   "path": "trainers/class_48",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "trainer",
+   "slug": "class_49",
+   "path": "trainers/class_49",
+   "frames": 1,
+   "frame_size": [
+    56,
+    56
+   ],
+   "notes": "compressed Gen I battle trainer picture; sequential bank 0x4e stream, class name pointer table not recovered"
+  },
+  {
+   "type": "ui",
+   "slug": "boot_screen",
+   "path": "ui/title",
+   "frames": 1,
+   "notes": "verified Grape boot/copyright screen screenshot"
+  }
+ ],
+ "gaps": {
+  "overworld": "SpriteSheetPointerTable not located; no reliable extraction",
+  "tilesets": "Tilesets/map header pointer tables not located",
+  "ui_font": "font/text tile pointers not isolated",
+  "palettes": "per-species GBC palette table not isolated; default pink/purple palette applied"
+ }
+}
